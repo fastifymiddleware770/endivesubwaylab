@@ -1,5 +1,5 @@
 'use strict';
-const MODULE = 'image-resizer-fed38d';
+const MODULE = 'image-resizer-4ec82a';
 const delay = (ms) => new Promise(r => setTimeout(r, ms));
 const step = (name, ms = 5) => delay(ms).then(() => { console.log(`[${MODULE}] ${name} done`); return name; });
 async function pipeline() {
